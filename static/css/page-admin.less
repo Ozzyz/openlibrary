@@ -10,6 +10,7 @@
 @import (less) "less/colors.less";
 @import (less) "less/breakpoints.less";
 @import (less) "less/mixins.less";
+@import (less) "less/font-families.less";
 
 body#admin {
   background-color: desaturate(@admin-table-border, 100);
@@ -19,7 +20,7 @@ body#admin {
     padding-bottom: 15px;
   }
   div#content {
-    font-family: "Lucida Grande", Verdana, Geneva, Helvetica, Arial, sans-serif;
+    font-family: @lucida_sans_serif-1;
   }
   div#bottom {
     background-color: transparent;
